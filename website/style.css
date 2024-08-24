@@ -242,6 +242,18 @@ body{
     margin-bottom: 10px; /* Space between image and text */
 }
 
+.project-item {
+    text-align: center;
+    flex: 1 1 calc(25% - 20px); /* Adjust to fit four items per row with spacing */
+}
+
+
+.project-img {
+    max-width: 700px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
 .cert-link {
     color: #007bff; /* Link color */
     text-decoration: none; /* Remove underline by default */
