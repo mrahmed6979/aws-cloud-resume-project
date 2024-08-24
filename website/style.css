@@ -249,7 +249,7 @@ body{
 
 
 .project-img {
-    max-width: 700px; /* Adjust size as needed */
+    max-width: 500px; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px; /* Space between image and text */
 }
