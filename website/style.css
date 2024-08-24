@@ -9,7 +9,7 @@ body{
     --color-black: #000000;
     --color-white: #ffffff;
     --color-border: #ffffff34;
-    --color-blue: #6C63FF;
+    --color-blue: #2277bd;
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
@@ -221,4 +221,47 @@ body{
 
 .eye :hover{
     color: var(--color-white);
+}
+
+.certifications {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap if necessary */
+    justify-content: space-between; /* Distributes space between items */
+    gap: 20px; /* Space between items */
+    padding: 0;
+}
+
+.certification-item {
+    text-align: center;
+    flex: 1 1 calc(33.333% - 20px); /* Adjust to fit three items per row with spacing */
+}
+
+.cert-img {
+    max-width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.cert-link {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline by default */
+    font-size: 16px; /* Adjust font size if needed */
+    font-family: 'Font-Ram', sans-serif; /* Example font-family, replace with actual */
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition for hover effect */
+}
+
+.cert-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #0056b3; /* Change color on hover */
+}
+
+.center-image {
+    width: 500px; /* Adjust width as needed */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto;
+}
+
+.col-sm-5 {
+    text-align: center; /* Centers the image horizontally in the column */
 }
